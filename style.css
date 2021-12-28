@@ -1,0 +1,132 @@
+a:hover{
+  cursor: pointer;
+}
+.mydiv{
+    background-color: rgb(148, 215, 226);
+    box-shadow: 0px 13px 7px -5px rgb(0 0 0 / 50%);
+    margin-bottom: 30px;   
+}
+.mydiv2{
+  background-color: rgb(0, 153, 255);
+}
+.newshead{
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+.newsimg{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    
+}
+.newsdisc{
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 22px;
+
+}
+.newsmore{
+    font-size: 22px;
+    float: right;
+    text-decoration: none;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.pagination a.active {
+  background-color: #a65ed0;
+  color: white;
+  
+}
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+.responsive-img{
+  display: block;
+    max-width: 100%;
+    height: auto;
+}
+.modal1 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content1 {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+.close1 {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close1:hover,
+.close1:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.searchcontainer{
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
+}
+.searchcontainer input,button{
+  font-size: 20px;
+  border: solid 3px rgb(148, 215, 226);
+  margin-right: 10px;
+}
+.searchcontainer input:focus{
+  outline: none;
+}
+
+li {
+  list-style-type: none;
+ }
+ ul {
+  padding-left: 0;
+ }
+ 
+ #mylist{
+   padding: 0px;
+ }
+ .ajaxsearch{
+   text-align: center;
+ }
+
+ .addmorelink{
+   color: red;
+   font-size: 18px;
+   text-decoration: underline;
+ }
+ #sortbtn{
+   margin-left: 10px;
+ }
